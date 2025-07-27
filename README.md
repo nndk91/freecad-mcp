@@ -1,4 +1,5 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/neka-nat-freecad-mcp-badge.png)](https://mseep.ai/app/neka-nat-freecad-mcp)
+[![smithery badge](https://smithery.ai/badge/@nndk91/freecad-mcp)](https://smithery.ai/server/@nndk91/freecad-mcp)
 
 # FreeCAD MCP
 
@@ -54,6 +55,14 @@ And you can start RPC server by "Start RPC Server" command in "FreeCAD MCP" tool
 ![start_rpc_server](./assets/start_rpc_server.png)
 
 ## Setting up Claude Desktop
+
+### Installing via Smithery
+
+To install FreeCAD Control Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nndk91/freecad-mcp):
+
+```bash
+npx -y @smithery/cli install @nndk91/freecad-mcp --client claude
+```
 
 Pre-installation of the [uvx](https://docs.astral.sh/uv/guides/tools/) is required.
 
